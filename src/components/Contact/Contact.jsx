@@ -10,6 +10,9 @@ const Contact = ({ id, name, number, onDelete }) => {
             <FaUser />
             {name}
           </p>
+          </div>
+
+          <div>
           <p>
             <FaPhone />
             {number}
